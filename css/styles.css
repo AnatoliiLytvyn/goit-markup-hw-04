@@ -380,11 +380,22 @@ ol {
 }
 
 /* SVG Icon Styles */
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .icon {
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-  transition: fill 0.3s ease;
+  width: 64px;
+  height: 64px;
+  fill: currentColor;
+  stroke: none;
 }
 
 .icon:hover {
