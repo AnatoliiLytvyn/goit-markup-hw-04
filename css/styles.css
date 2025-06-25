@@ -57,6 +57,10 @@ ol {
   align-items: center;
 }
 
+.studio-header {
+  color: var(--color-dark);
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -307,7 +311,6 @@ ol {
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
-  /* або .jpeg */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
