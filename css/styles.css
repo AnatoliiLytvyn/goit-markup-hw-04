@@ -294,15 +294,13 @@ ol {
 
 /* Hero Section Styles */
 .hero-section {
-  max-width: 1440px;
+ /* max-width: 1440px;*/
   background-color: var(--color-dark);
   margin: 0 auto;
   padding: 188px 0;
   text-align: center;
   font-size: 16px;
   background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
