@@ -1,8 +1,9 @@
 :root {
   --color-primary: #4d5ae5;
-  --color-accent: #4d5ae5;
+  --color-accent: #404bbf;
   --color-dark: #2e2f42;
   --color-text: #434455;
+  --color-accent: #4d5ae5
   --color-white: #ffffff;
   --color-accent: #4d5ae5
   --color-bg-light: #f4f4fd;
@@ -45,11 +46,8 @@ ol {
 }
 
 /* Header */
-.page-header {
-  box-shadow:
-    0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+  .header {
+ border-bottom: 1px solid #e7e9fc; 
 }
 
 .header-container {
@@ -89,7 +87,12 @@ ol {
   position: relative;
   color: #404bbf;
   text-decoration: none;
+  color: #404bbf;
+  position: relative;
   font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  line-height: 1.5;
   padding: 24px 0;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -292,11 +295,11 @@ ol {
 
 /* Hero Section Styles */
 .hero-section {
-  max-width: 1440px;
+  /*max-width: 1440px;*/
   margin: 0 auto;
   padding: 188px 0;
   text-align: center;
-
+  font-size: 16px;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
@@ -307,13 +310,14 @@ ol {
 
 .hero-title {
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  font-size: 56px;
   margin-bottom: 48px;
   max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -328,8 +332,7 @@ ol {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-
+ 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
