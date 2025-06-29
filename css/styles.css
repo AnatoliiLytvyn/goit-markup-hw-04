@@ -402,6 +402,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--color-white);
   margin: 8px 0 0;
+  max-width: 264px;
 }
 
 /* Social media section */
@@ -420,6 +421,7 @@ ol {
 /* List of social media icons */
 .socials-list {
   display: flex;
+  flex-wrap: column;
   gap: 16px;
   margin: 0;
   padding: 0;
