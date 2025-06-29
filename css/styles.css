@@ -267,6 +267,31 @@ ol {
   fill: var(--color-accent);
 }
 
+.team-item-text {
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  padding-bottom: 8px;
+}
+
+.team-cards-social {
+  display: flex;
+  gap: 24px;
+  align-items: center;  
+  min-width: 232px;
+}
+
+.team-cards-social-list {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-cards-social-list-logo {
+  fill: none;
+}
+
 /* Portfolio Section */
 .portfolio-section {
   padding: 120px 0;
