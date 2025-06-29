@@ -368,14 +368,13 @@ ol {
 .site-footer {
   background-color: var(--color-dark);
   padding: 100px 0;
-  width: 40px;
-  height: 40px;
 }
 
 /* Container inside footer */
 .footer-container {
   display: flex;
-  align-items: baseline;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Logo and description wrapper */
@@ -421,7 +420,7 @@ ol {
 /* List of social media icons */
 .socials-list {
   display: flex;
-  flex-wrap: column;
+  flex-direction: column;
   gap: 16px;
   margin: 0;
   padding: 0;
