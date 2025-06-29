@@ -4,9 +4,7 @@
   --color-accent: #404bbf;
   --color-dark: #2e2f42;
   --color-text: #434455;
-  --color-text-light: #8e8f99;
   --color-white: #ffffff;
-  --color-bg: #f8f8fc;
   --color-bg-light: #f4f4fd;
 }
 
@@ -320,11 +318,9 @@ ol {
 
 /* === FOOTER === */
 .site-footer {
-  background-color: var(--color-dark);
-  border-top: 1px solid #e7e9fc;
-  color: var(--color-white);
-  text-align: center;
   padding: 100px 0;
+  background-color: var(--color-dark);
+
 }
 
 .footer-container {
