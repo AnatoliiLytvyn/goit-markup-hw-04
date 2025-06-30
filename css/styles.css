@@ -214,23 +214,21 @@ ol {
 }
 
 /* Team Section */
-/* Секція команди */
 .section-team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
 
-/* Контейнер списку */
 .team-list {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-/* Одна карточка */
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
@@ -242,7 +240,12 @@ ol {
   width: 264px;
 }
 
-/* Контент всередині */
+.team-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .team-info {
   display: flex;
   flex-direction: column;
@@ -252,11 +255,10 @@ ol {
   padding: 32px 0;
 
   width: 232px;
-  height: 104px;
+  height: auto;
   margin: 0 auto;
 }
 
-/* Ім’я */
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -264,24 +266,21 @@ ol {
   margin: 0;
 }
 
-/* Посада */
 .team-position {
   font-size: 16px;
   color: #434455;
   margin: 0;
 }
 
-/* Список соцмереж */
 .team-social-list {
   display: flex;
   justify-content: center;
   gap: 8px;
   padding: 0;
-  margin: 0;
+  margin-top: 8px;
   list-style: none;
 }
 
-/* Кнопка соцмережі */
 .social-link {
   width: 40px;
   height: 40px;
@@ -298,9 +297,10 @@ ol {
   background-color: #404bbf;
 }
 
-/* Іконки */
 .social-icon {
-  fill: #f4f4fd;
+  fill: #ffffff;
+  width: 16px;
+  height: 16px;
 }
 
 /* Portfolio Section */
