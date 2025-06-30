@@ -229,6 +229,10 @@ ol {
 
 .team-list {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
   gap: 24px;
   flex-wrap: wrap;
 }
