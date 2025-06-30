@@ -220,6 +220,7 @@ ol {
 }
 
 .team-list {
+  flex-direction: row;
   display: flex;
   align-items: center;
   gap: 24px;
