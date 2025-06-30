@@ -275,20 +275,20 @@ ol {
 .team-social-list {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 16px;
   padding: 0;
   margin-top: 8px;
   list-style: none;
 }
 
 .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms ease-in-out;
 }
 
@@ -298,9 +298,10 @@ ol {
 }
 
 .social-icon {
-  fill: #ffffff;
   width: 16px;
   height: 16px;
+  fill: #ffffff;
+
 }
 
 /* Portfolio Section */
