@@ -271,14 +271,14 @@ ol {
   padding: 0;
 }
 
-.team-socials-link {
+.social-link {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   transition: background-color 250ms ease-in-out;
 }
 
@@ -286,15 +286,12 @@ ol {
   fill: #f4f4fd; 
 }
 
-
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--color-accent);
+  background-color: #404bbf;
 }
 
 .social-icon {
-  width: 24px;
-  height: 24px;
   fill: #f4f4fd;
 }
 
