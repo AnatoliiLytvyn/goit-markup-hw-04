@@ -394,7 +394,7 @@ ol {
 
 .footer-container {
   display: flex;
-gap: 120px;
+gap: 255px;
 padding-left: 156px;
 padding-right: 15px;
 }
