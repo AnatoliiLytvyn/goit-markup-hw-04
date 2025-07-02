@@ -393,9 +393,11 @@ ol {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-right: 120px;
   gap: 120px;
   flex-wrap: wrap;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .footer-logo-box {
