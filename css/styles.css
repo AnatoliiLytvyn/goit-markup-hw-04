@@ -394,14 +394,9 @@ ol {
 
 .footer-container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 120px;
-  flex-wrap: wrap;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0px;
+gap: 120px;
+padding-left: 156px;
+padding-right: 15px;
 }
 
 .footer-logo-box {
