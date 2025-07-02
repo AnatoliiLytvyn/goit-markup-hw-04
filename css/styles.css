@@ -409,7 +409,7 @@ padding-right: 15px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
-  letter-spacing: nowrap;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 16px;
@@ -423,7 +423,7 @@ padding-right: 15px;
 .footer-text {
   width: 264px;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: nowrap;
   max-width: 264px;
