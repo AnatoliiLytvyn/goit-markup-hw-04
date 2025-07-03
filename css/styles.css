@@ -150,7 +150,7 @@ ol {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero-bg.jpg');
+    url(../images/amg-name.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -175,7 +175,7 @@ ol {
   letter-spacing: 0.04em;
   cursor: pointer;
   text-align: center;
-  bckground-color: #4d5ae5;
+  background-color: #4d5ae5;
   display: block;
   margin: 0 auto;
   align-items: flex-start;
