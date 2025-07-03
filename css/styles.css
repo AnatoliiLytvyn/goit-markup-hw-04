@@ -142,7 +142,7 @@ ol {
 /* Hero Section */
 .hero-section {
   background-color: var(--color-dark);
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 188px 0;
   text-align: center;
@@ -169,25 +169,27 @@ ol {
 }
 
 .hero-button {
-  display: inline-block;
-  min-width: 169px;
-  height: 56px;
-  margin: 0 auto;
-  border: none;
-  background-color: var(--color-primary);
-  border-radius: 4px;
-  color: var(--color-white);
-  font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  bckground-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  transition: bckground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--color-accent);
+  background-color: #404bbf
 }
 
 /* Features Section */
@@ -305,7 +307,6 @@ ol {
 
 .social-icon {
   fill: #ffffff;
-
 }
 
 /* Portfolio Section */
