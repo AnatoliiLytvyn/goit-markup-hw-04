@@ -31,6 +31,7 @@ h4,
 h5,
 h6,
 p {
+  text-align: center;
   margin: 0;
 }
 
@@ -260,7 +261,6 @@ ol {
   align-items: center;
   gap: 8px;
   padding: 32px 0;
-
   width: 232px;
   height: auto;
   margin: 0 auto;
@@ -389,6 +389,7 @@ ol {
   background-color: #2e2f42;
   padding: 100px 0;
   color: #fff;
+  text-align: left;
 }
 
 .footer-container {
