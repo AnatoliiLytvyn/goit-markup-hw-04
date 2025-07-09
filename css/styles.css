@@ -197,7 +197,6 @@ ol {
 /* Features Section */
 .features-section {
   display: flex;
-  justify-content: space-between;
   padding: 120px 0;
   gap: 24px;
 }
@@ -220,17 +219,18 @@ fill: var(--color-primary);
 .features-list {
   display: flex;
   gap: 24px;
-  line-height: 1.5;
-  letter-spacing: normal;
+justify-content: center;
 }
 
 .features-item {
-  background-color: #f4f4fd;
-    border: 1px solid #e7e9fc;
-    border-radius: 4px;
-    padding: 24px;
-    flex: 1;
-    text-align: center;
+  width: 264px;
+    background-color: #f4f4fd;
+    padding: 24px 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
   width: calc((100% - 72px) / 4);
 }
 
@@ -247,18 +247,16 @@ fill: var(--color-primary);
 }
 
 .features-title {
-  margin-bottom: 8px;
-  font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
-  white-space: 0.02em;
-  letter-spacing: normal;
-  color: var(--color-dark);
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #2e2f42;
 }
 
 .features-text {
   font-size: 16px;
   color: var(--color-text);
+  line-height: 1.5;
 }
 
 /* Team Section */
