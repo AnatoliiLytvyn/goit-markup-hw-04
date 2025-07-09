@@ -196,8 +196,10 @@ ol {
 
 /* Features Section */
 .features-section {
+  display: flex;
+  justify-content: space-between;
   padding: 120px 0;
-  text-align: center;
+  gap: 24px;
 }
 
 .icon-box {
@@ -248,9 +250,9 @@ fill: var(--color-primary);
   text-align: center;
 }
 .section-title {
-  font-size: 36px;
-  margin-bottom: 50px;
   text-align: center;
+  font-size: 36px;
+  margin-bottom: 72px;
 }
 
 .team-list {
