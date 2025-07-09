@@ -225,7 +225,25 @@ fill: var(--color-primary);
 }
 
 .features-item {
+  background-color: #f4f4fd;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 24px;
+    flex: 1;
+    text-align: center;
   width: calc((100% - 72px) / 4);
+}
+
+.feature-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  color: #434455;
 }
 
 .features-title {
