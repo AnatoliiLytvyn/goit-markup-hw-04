@@ -197,6 +197,7 @@ ol {
 /* Features Section */
 .features-section {
   padding: 120px 0;
+  text-align: center;
 }
 
 .icon-box {
@@ -244,17 +245,23 @@ fill: var(--color-primary);
 .section-team {
   background-color: #fff;
   padding: 120px 0;
+  text-align: center;
+}
+.section-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .team-list {
 display: flex;
-flex-wrap: wrap;
 justify-content: center;
-align-items: center;
 gap: 24px;
+flex-wrap: wrap;
 list-style: none;
 margin: 0;
 padding: 0;
+list-style: none;
 }
 
 .team-item {
@@ -407,11 +414,15 @@ bottom: 0;
   padding: 100px 0;
   color: #fff;
   text-align: left;
+
+  @media (max-width: 768px) {
+    text-align: center;
   }
+}
 
 .footer-container {
-flex-direction: column;
 display: flex;
+flex-direction: column;
 gap: 156px;
 padding-left: 156px;
 padding-right: 156px;
