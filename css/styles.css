@@ -9,14 +9,10 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   background-color: var(--color-white);
   color: var(--color-text);
   margin: 0;
-  letter-spacing: 0.02em;
+
 }
 
 img {
@@ -86,9 +82,8 @@ ol {
 }
 
 .nav-link {
-  position: relative;
-  color: var(--color-dark);
   text-decoration: none;
+  color: var(--color-dark);
   font-weight: 500;
   font-size: 16px;
   white-space: nowrap;
@@ -424,11 +419,11 @@ ol {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 16px;
+  letter-spacing: nowrap;
   text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -436,11 +431,10 @@ ol {
 }
 
 .footer-text {
-  width: 264px;
   font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
   letter-spacing: nowrap;
+  color: #f4f4fd;
   max-width: 264px;
 }
 
